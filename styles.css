@@ -1,7 +1,24 @@
-body {
-    color: white
+body,
+div {
+    background-color: white;
+    border: 0px;
+    margin: 0px;
+
+
+}
+
+#mainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 p {
     color: blue;
+}
+
+h1 {
+    border: 0px;
+    margin: 0px;
 }

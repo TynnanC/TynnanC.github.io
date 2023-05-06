@@ -3,8 +3,6 @@ div {
     background-color: white;
     border: 0px;
     margin: 0px;
-
-
 }
 
 #mainDiv {
@@ -12,13 +10,20 @@ div {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin: 2vw;
+}
+
+#mainDiv div {
+    background-color: #f0f0f0;
+    border-radius: 10px;
 }
 
 p {
-    color: blue;
+    font-family: "Arial, Helvetica, Monaco"
 }
 
-h1 {
+h2 {
     border: 0px;
     margin: 0px;
+    align-items: center;
 }

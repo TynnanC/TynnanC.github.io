@@ -11,28 +11,43 @@
     <div id="mainDiv">
         <h1>Tynnan Conquit</h1>
         <img src="./data/photoID.jpg" id="coverPhoto" />
-        <h2>About Me</h2>
         <div>
-            <md-block>
-                I am a Macquarie University student studying a Bachelors of Commerce, majoring
-                in Business
-                Analytics, and a Bachelors of Information Technology, majoring in Web and Mobile Application
-                Development.
-            </md-block>
-        </div>
-        <h2>
-            Education
-        </h2>
-        <div>
-            <md-block>
-                Macquarie University (2019 to 2023)
-                - Bachelor of Commerce with a major in Business Analytics.
-                - Bachelor of Information Technology with a
-                major in web and mobile application development.
+            <table id="aboutMeEducationTable">
+                <tr>
+                    <th>
+                        <h2>
+                            About Me
+                        </h2>
+                    </th>
+                    <th>
+                        <h2>
+                            Education
+                        </h2>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <md-block>
+                            I am a Macquarie University student studying a Bachelors of Commerce, majoring
+                            in Business
+                            Analytics, and a Bachelors of Information Technology, majoring in Web and Mobile Application
+                            Development.
+                        </md-block>
+                    </td>
+                    <td>
+                        <md-block>
+                            Macquarie University (2019 to 2023)
+                            - Bachelor of Commerce with a major in Business Analytics.
+                            - Bachelor of Information Technology with a
+                            major in web and mobile application development.
 
-                St Edwards Christian College Gosford (2013 to 2018)
-                - Atar: 80.15
-            </md-block>
+                            St Edwards Christian College Gosford (2013 to 2018)
+                            - Atar: 80.15
+                        </md-block>
+                    </td>
+                </tr>
+            </table>
+
         </div>
         <h2>
             Work Experience
@@ -70,8 +85,12 @@
             Skills
         </h2>
         <div id="skillsTable">
-            <p>Programming Skills</p>
-            <table>
+            <table id="skills">
+                <tr>
+                    <td colspan="2">
+                        <p>Programming Skills</p>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <md-block>
@@ -104,10 +123,15 @@
                     </td>
                 </tr>
             </table>
-            <p>
-                Qualifications
-            </p>
-            <table>
+
+            <table id="qualifications">
+                <tr>
+                    <td>
+                        <p>
+                            Qualifications
+                        </p>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <md-block>
@@ -123,10 +147,12 @@
 
         </div>
         <div>
-            <p>I have developed coding skills that have been a joy to see improve.</p>
+            <h2>Deployed Example</h2>
+            <p>Below is a link to Memorise!, a note taking mobile application developed during my studies. Click the
+                link, download the ExpoGo app, and scan the URL to try it out!</p>
             <a href="https://expo.dev/@task2_tynnanconquit_45898723/Task2_TynnanConquit_45898723?serviceType"><img
                     src="./data/heart-outline.png" id="devEvidence" /></a>
-            <p>My self made mobile note taking application, Memorise!</p>
+            <p>More work examples from my studies are available on my GitHub.</p>
         </div>
         <h1>
             Lets connect!

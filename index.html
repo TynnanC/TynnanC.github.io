@@ -9,8 +9,11 @@
 
 <body>
     <div id="mainDiv">
-        <h1>Tynnan Conquit</h1>
-        <img src="./data/photoID.jpg" id="coverPhoto" />
+        <div id="coverPhotoAndName">
+            <h1>Tynnan Conquit</h1>
+            <img src="./data/photoID.jpg" id="coverPhoto" />
+        </div>
+
         <div>
             <table id="aboutMeEducationTable">
                 <tr>
@@ -27,43 +30,55 @@
                 </tr>
                 <tr>
                     <td>
-                        <md-block>
+                        <p>
                             I am a Macquarie University student studying a Bachelors of Commerce, majoring
                             in Business
                             Analytics, and a Bachelors of Information Technology, majoring in Web and Mobile Application
                             Development.
-                        </md-block>
+                        </p>
                     </td>
                     <td>
-                        <md-block>
+                        <p>
                             Macquarie University (2019 to 2023)
-                            - Bachelor of Commerce with a major in Business Analytics.
-                            - Bachelor of Information Technology with a
-                            major in web and mobile application development.
-
+                        <ul>
+                            <li>Bachelor of Commerce with a major in Business Analytics.</li>
+                            <li>Bachelor of Information Technology with a
+                                major in web and mobile application development.</li>
+                        </ul>
+                        <p>
                             St Edwards Christian College Gosford (2013 to 2018)
-                            - Atar: 80.15
-                        </md-block>
-                    </td>
+                        </p>
+                        <ul>
+                            <li>
+                                Atar: 80.15
+                            </li>
+                        </ul>
+                        </p>
                 </tr>
             </table>
 
         </div>
-        <h2>
-            Work Experience
-        </h2>
-        <div>
-            <md-block>
+
+        <div id="workExp">
+            <h2>
+                Work Experience
+            </h2>
+            <h3>
                 Ballot counting for NSW State General Election (2019)
-                - This role was primarily sorting and organizing ballot papers. This would involve first taking all
+            </h3>
+            <p>
+                This role was primarily sorting and organizing ballot papers. This would involve first taking all
                 of
                 the ballot papers from each region, sorting them into groups based on candidate, secondly,
                 we would form stacks of 100 ballots of each representative, and then finally submit electronically
                 how
                 many votes each candidate received. This was a 2-day contract.
-
+            </p>
+            <h3>
                 Back of house crew member at Hungry Jacks, West Gosford (November 2021 to March 2023)
-                - My tasks vary depending on what time of day I start. If I start at 5am, I am focused on setting up
+            </h3>
+            <p>
+                My tasks vary depending on what time of day I start. If I start at 5am, I am focused on setting up
                 the
                 equipment and basic food needs ready to serve customers at 6am. Throughout the morning I
                 am preparing food for the day (fresh food like cheese, tomatoes, sauces etc.), or preparing frozen
@@ -73,93 +88,110 @@
                 enough
                 cooked food for lunch and school rushes. I also helped with tasks like washing up, packing away
                 food and dry goods when it is delivered, and general store upkeep like sweeping and crushing boxes.
-
+            </p>
+            <h3>
                 Crew Coach at Hungry (March 2023 to present)
-                - My role was expanded to included being the primary person to train new crew members. This meant
+            </h3>
+            <p>
+                My role was expanded to included being the primary person to train new crew members. This meant
                 having a better understanding of all business tasks, and operating procedures
                 for training related to work health and safety. This is a stepping stone while I start training with
                 the goal of becoming a shift supervisor.
-            </md-block>
-        </div>
-        <h2>
-            Skills
-        </h2>
-        <div id="skillsTable">
-            <table id="skills">
-                <tr>
-                    <td colspan="2">
-                        <p>Programming Skills</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <md-block>
-                            - HTML
-                            - CSS
-                            - JavaScript
-                            - Python
-                            - Java
-                            - React
-                            - React Native
-                            - Jest
-                            - Node.js
-                            - GitHub
-                        </md-block>
-                    </td>
-                    <td>
-                        <md-block>
-                            - Markdown
-                            - Expo
-                            - Heroku
-                            - Android Studio
-                            - Jupyter Notebook
-                            - Orange Data Miner
-                            - Google Colab
-                            - Gephi
-                            - Netlytic
-                            - SQL
-                            - Mongo DB
-                        </md-block>
-                    </td>
-                </tr>
-            </table>
+            </p>
 
-            <table id="qualifications">
-                <tr>
-                    <td>
-                        <p>
-                            Qualifications
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <md-block>
-                            - Working With Children’s Check
-                            - Unrestricted Drivers License
-                            - Responsible Service of Alcohol
-                            - Responsible conduct of Gambling
-                            - First Aid Certificate
-                        </md-block>
-                    </td>
-                </tr>
-            </table>
+            <div id="skillsTable">
+                <h2>
+                    Skills
+                </h2>
+                <table id="skills">
+                    <tr>
+                        <td colspan="3">
+                            <p>Programming Skills</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Jupyter Notebook</li>
+                                <li>Gephi</li>
+                                <li>Jest</li>
+                                <li>GitHub</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <li>Markdown</li>
+                            <li>Expo</li>
+                            <li>Heroku</li>
+                            <li>Google Colab</li>
+                            <li>Netlytic</li>
+                            <li>SQL</li>
+                            <li>Mongo DB</li>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Python</li>
+                                <li>Android Studio</li>
+                                <li>Java</li>
+                                <li>React</li>
+                                <li>React Native</li>
+                                <li>Node.js</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
 
-        </div>
-        <div>
-            <h2>Deployed Example</h2>
-            <p>Below is a link to Memorise!, a note taking mobile application developed during my studies. Click the
-                link, download the ExpoGo app, and scan the URL to try it out!</p>
-            <a href="https://expo.dev/@task2_tynnanconquit_45898723/Task2_TynnanConquit_45898723?serviceType"><img
-                    src="./data/heart-outline.png" id="devEvidence" /></a>
-            <p>More work examples from my studies are available on my GitHub.</p>
-        </div>
-        <h1>
-            Lets connect!
-        </h1>
-        <a href="https://github.com/TynnanC"><img src="./data/GitHub_Logo.png" /></a>
-        <a href="https://www.linkedin.com/in/tynnan-c-414937273/"><img src="./data/LI-Logo.png" /></a>
-    </div>
+                <table id="qualifications">
+                    <tr>
+                        <td>
+                            <p>
+                                Qualifications
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>
+                                    Working With Children’s Check
+                                </li>
+                                <li>
+                                    Unrestricted Drivers License
+                                </li>
+                                <li>
+                                    Responsible Service of Alcohol
+                                </li>
+                                <li>
+                                    Responsible conduct of Gambling
+                                </li>
+                                <li>
+                                    First Aid Certificate
+                                </li>
+                            </ul>
+
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <div id="example">
+                <h2>Deployed Example</h2>
+                <p>Below is a link to Memorise!, a note taking mobile application developed during my studies. Click the
+                    link, download the ExpoGo app, and scan the URL to try it out!</p>
+                <a href="https://expo.dev/@task2_tynnanconquit_45898723/Task2_TynnanConquit_45898723?serviceType"
+                    target="_blank"><img src="./data/heart-outline.png" id="devEvidence" /></a>
+                <p>More work examples from my studies are available on my GitHub.</p>
+            </div>
+            <div id="footer">
+                <h1>
+                    Lets connect!
+                </h1>
+                <a href="https://github.com/TynnanC" target="_blank"><img src="./data/GitHub_Logo.png" /></a>
+                <a href="https://www.linkedin.com/in/tynnan-c-414937273/" target="_blank"><img
+                        src="./data/LI-Logo.png" /></a>
+            </div>
 </body>
 
 </html>

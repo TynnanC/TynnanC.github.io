@@ -1,6 +1,5 @@
 body {
     height: 100%;
-    padding: 2vw;
     margin: 0;
 }
 
@@ -14,29 +13,54 @@ body {
 }
 
 #mainDiv div {
-    border-radius: 1vw;
     width: 100%;
 }
 
 p,
-li,
-md-block {
+li {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 #paragraphItalic {
     font-style: italic;
 }
 
+#workExp {
+    background-color: #F0E7DA;
+}
+
+#workExp p {
+    padding: 0 2% 0 2%;
+    text-align: left;
+}
+
+#workExp h3 {
+
+    text-align: left;
+    padding: 0 2% 0 2%;
+}
+
+#coverPhotoAndName {
+    background-color: #eaeaea;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
     border: 0px;
     margin: 0 0 1vw 0;
+    width: 100%;
+    text-align: center;
 }
 
-h2,
-h3 {
+h2 {
     border: 0px;
     margin: 1vw 0 0 0;
+    text-align: center;
 }
 
 h1,
@@ -55,9 +79,10 @@ table {
     border-radius: 0.5vw;
 }
 
-a img {
-    width: 12vw;
-    height: 4vw;
+#devEvidence {
+    width: 8vw;
+    height: 8vw;
+
 }
 
 a img:hover {
@@ -65,16 +90,17 @@ a img:hover {
 }
 
 #aboutMeEducationTable th {
-    width: 43vw;
+    width: 50vw;
 }
 
 #aboutMeEducationTable td {
     vertical-align: top;
+    padding: 2%;
 }
 
 #aboutMeEducationTable td:nth-child(even),
 th:nth-child(even) {
-    background-color: #eaeaea;
+    background-color: #ccdde0;
 }
 
 #aboutMeEducationTable {
@@ -82,20 +108,42 @@ th:nth-child(even) {
 }
 
 #skills {
-    background-color: #eaeaea;
-
+    width: 30%;
 }
 
-table tr td p {
-    text-align: center;
+#skillsTable {
+    background-color: #ccdde0;
+    margin: 0;
+}
+
+#qualifications {
+    width: 30%;
+
 }
 
 #devEvidence {
-    width: 10vw;
-    height: 10vw;
-    margin-left: 43vw;
+    margin-left: 46vw;
 }
 
 #devEvidence:hover {
     opacity: 50%;
+}
+
+#footer {
+    width: 100%;
+    background-color: #eaeaea;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer a img {
+    height: 4vw;
+    width: 12vw;
+}
+
+#example {
+    background-color: #F0E7DA;
 }
